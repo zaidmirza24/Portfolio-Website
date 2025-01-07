@@ -6,6 +6,7 @@ import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { IoLogoYoutube } from "react-icons/io";
 import { FaTelegram } from "react-icons/fa6";
+import {FaGithub} from "react-icons/fa6"
 
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -28,7 +29,7 @@ function Home() {
               <h1>Hello, I'm a</h1>
               {/* <span >Developer</span> */}
               <ReactTyped
-                className="text-red-700 font-bold"
+                className="text-green-500 font-bold"
                 strings={["Developer", "Programmer", "Coder"]}
                 typeSpeed={40}
                 backSpeed={50}
@@ -37,11 +38,7 @@ function Home() {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Quisquam, recusandae consequatur. Accusamus sint libero eligendi
-              laborum fuga repudiandae? Asperiores tempore eos animi dolores
-              corrupti! Sint quos, mollitia architecto aliquam nesciunt, optio
-              cum delectus sit voluptatum aut ratione quaerat veniam aperiam!
+            A code wizard 🧙‍♂️ powered by coffee and a sprinkle of mischief. Bugs fear me, and data dances to my tune. I eat code bugs for breakfast, and my morning coffee? Well, that's when I put the 'fun' in functional programming.
             </p>
             <br />
             {/* social media icons */}
@@ -50,23 +47,19 @@ function Home() {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/mohammed-zaid-mirza-5b1a76248/" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <IoLogoYoutube className="text-2xl cursor-pointer" />
+                    <a href="https://www.facebook.com/" target="_blank">
+                      <FaSquareFacebook className="text-2xl cursor-pointer" />
                     </a>
                   </li>
+
                   <li>
-                    <a href="https://t.me/" target="_blank">
-                      <FaTelegram className="text-2xl cursor-pointer" />
+                    <a href="https://github.com/zaidmirza24" target="_blank">
+                      <FaGithub className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                 </ul>
